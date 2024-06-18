@@ -1,12 +1,26 @@
+
 button {
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     padding: 10px; 
+    margin: 10px;
 }
+
+input  {
+    
+   
+}
+
 
 
 body {
-    display: flex;
-    background-color: black;
+    display: grid;
     align-items: center;
+    justify-content: center;
 }
+
+#winner {
+    
+    text-align: center;
+}
+
