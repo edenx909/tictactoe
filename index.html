@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div>
+    <h1>Tic Tac Toe</h1>
+    <input type="text" id="player1name">
+    <input type="text" id="player2name">
+    <input type="button" value="Start" onclick="assign()">
+    <br>
+    <div id="main">
         <button></button>
         <button></button>
         <button></button>
@@ -19,7 +24,9 @@
         <button></button>
         <button></button>
         <button></button>
-    </div>
+    </div> <br>
+    <p id="winner"></p>
+    <input type="button" id='restart' value="Restart" onclick="location.reload()">
     <script src="main.js"></script>
 </body>
 </html>
